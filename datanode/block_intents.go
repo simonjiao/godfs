@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sync"
 
-	. "golang-distributed-filesystem/common"
+	. "godfs/common"
 )
 
 // Linearizes access to blocks

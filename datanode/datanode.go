@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	. "golang-distributed-filesystem/common"
+	. "godfs/common"
 )
 
 var (

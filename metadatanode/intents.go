@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	. "golang-distributed-filesystem/common"
+	. "godfs/common"
 )
 
 type replicationIntent struct {

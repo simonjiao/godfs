@@ -1,7 +1,7 @@
 all: build test
 
 build:
-	GOPATH="$(CURDIR)" && go install golang-distributed-filesystem
+	GOPATH="$(CURDIR)" && go install godfs
 
 test: build
-	GOPATH="$(CURDIR)" && go test ./src/golang-distributed-filesystem/
+	GOPATH="$(CURDIR)" && go test ./src/godfs/

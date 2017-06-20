@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"log"
 
-	_ "golang-distributed-filesystem/3rdparty/github.com/mattn/go-sqlite3"
+	_ "godfs/3rdparty/github.com/mattn/go-sqlite3"
 )
 
 type DB struct {

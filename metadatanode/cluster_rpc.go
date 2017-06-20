@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	. "golang-distributed-filesystem/common"
+	. "godfs/common"
 )
 
 func runClusterRPC(c net.Conn, mdn *MetaDataNodeState) {

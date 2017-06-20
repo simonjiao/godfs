@@ -5,11 +5,11 @@ import (
 	"math/rand"
 	"time"
 
-	"golang-distributed-filesystem/utils/command"
+	"godfs/utils/command"
 
-	"golang-distributed-filesystem/datanode"
-	"golang-distributed-filesystem/metadatanode"
-	"golang-distributed-filesystem/upload"
+	"godfs/datanode"
+	"godfs/metadatanode"
+	"godfs/upload"
 )
 
 func main() {

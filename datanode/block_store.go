@@ -8,7 +8,7 @@ import (
 	"os"
 	"path"
 
-	. "golang-distributed-filesystem/common"
+	. "godfs/common"
 )
 
 // Deals with filesystem

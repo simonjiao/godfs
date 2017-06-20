@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"golang-distributed-filesystem/3rdparty/github.com/docker/docker/pkg/random"
+	"godfs/3rdparty/github.com/docker/docker/pkg/random"
 )
 
 var (

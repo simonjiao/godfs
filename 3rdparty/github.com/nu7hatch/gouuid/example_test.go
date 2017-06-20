@@ -2,7 +2,7 @@ package uuid_test
 
 import (
 	"fmt"
-	"golang-distributed-filesystem/3rdparty/github.com/nu7hatch/gouuid"
+	"godfs/3rdparty/github.com/nu7hatch/gouuid"
 )
 
 func ExampleNewV4() {

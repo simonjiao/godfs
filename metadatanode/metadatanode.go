@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"golang-distributed-filesystem/3rdparty/github.com/dotcloud/docker/pkg/namesgenerator"
-	"golang-distributed-filesystem/3rdparty/github.com/nu7hatch/gouuid"
+	"godfs/3rdparty/github.com/dotcloud/docker/pkg/namesgenerator"
+	"godfs/3rdparty/github.com/nu7hatch/gouuid"
 
-	. "golang-distributed-filesystem/common"
+	. "godfs/common"
 )
 
 type MetaDataNodeState struct {
